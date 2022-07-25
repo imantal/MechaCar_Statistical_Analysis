@@ -32,7 +32,7 @@ Similarly, a statistics table is created for the PSI data for each manufacturing
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data indicates that for the total products and for Lot 1 and Lot 2, the production meets this design specification, but it does not meet this design specification for Lot 3 (Note that variance is 170 >150).
 
-## T-Test on Suspension Coils
+## T-test on suspension coils
 Using R language, t-tests are performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. 
 As shown below, it was first tested if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. Considering the P-value of 0.06 which is greater than significance level of 0.05, the null hypothesis cannot be rejected. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the sample and population mean are statistically similar.
 For coils in Lot 1 and Lot 2, similarly, the P-value is very high, noticeably > 0.05, meaning that the sample and population mean values are similar. However, for Lot 3 the P-value is 0.04 which is less than 0.05. As a result, we can conclude that the coils in lot 3 are statically different from the population.
@@ -42,7 +42,7 @@ For coils in Lot 1 and Lot 2, similarly, the P-value is very high, noticeably > 
 ![image](https://user-images.githubusercontent.com/103223944/180677218-78359024-e1f7-4752-ac9b-d673c2932955.png)
 ![image](https://user-images.githubusercontent.com/103223944/180677227-6f526499-ca67-4d8c-852b-fa48cee79319.png)
 
-## Study Design: MechaCar vs Competition
+## Study design: MechaCar vs Competition
 
 The following statistical study is proposed to quantify the performance of the MechaCar vehicles against performance of vehicles from other manufacturers. 
 
